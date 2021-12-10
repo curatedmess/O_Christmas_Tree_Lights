@@ -42,7 +42,6 @@ data %>%
   labs(caption = "\nDesign by: Ryan Hart | #SWDChallenge Dec 2021 | Cost calculated using christmaslightsetc.com") +
   theme_void() +
   theme(text = element_text(family = "Montserrat", color = "#FFFFFF"),
-        #plot.caption = element_markdown(family = "Montserrat", color = "#FFFFFF", hjust = 0.5, margin = margin (0,10,0,10), size = 8, lineheight = 1.2),
         plot.caption = element_text(size = 7.5, hjust = 0.5, lineheight = 1.2),
         plot.margin = unit(c(1.0,1.5,1.0,1.5), "cm"),
         plot.background = element_rect(fill="#121212"))
