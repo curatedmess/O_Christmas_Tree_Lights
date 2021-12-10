@@ -39,7 +39,7 @@ data %>%
            color = "#FFECB3", family = "Mr Dafoe", size = 12) +
   annotate(geom = "text", x = 250, y = 780, label = "To light a\nseven-foot tree with\n700 incandescent mini lights\nfor the Christmas season would\ncost an average of $5.04 in the United States.",
            color = "#FFFFFF", family = "Montserrat", size = 3.5, hjust = 0.5) +
-  labs(caption = "\nDesign by: Ryan Hart | #SWDChallenge Dec 2021 | Cost: christmaslightsetc.com") +
+  labs(caption = "\nDesign by: Ryan Hart | #SWDChallenge Dec 2021 | Cost calculated using christmaslightsetc.com") +
   theme_void() +
   theme(text = element_text(family = "Montserrat", color = "#FFFFFF"),
         #plot.caption = element_markdown(family = "Montserrat", color = "#FFFFFF", hjust = 0.5, margin = margin (0,10,0,10), size = 8, lineheight = 1.2),
