@@ -1,7 +1,7 @@
 # O Christmas Tree Lights
 # #SWDChallenge December 2021
 # Points created using WebPlotDigitizer from a basic png image
-# Cost information calculated using formulas found on https://www.christmaslightsetc.com/pages/how-much-power.htm
+# Cost information calculated using formulas found at https://www.christmaslightsetc.com/pages/how-much-power.htm
 
 # libraries
 library(tidyverse)
